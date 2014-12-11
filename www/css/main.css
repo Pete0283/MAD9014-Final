@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+	margin: 0 auto;
+}
+html, body {
+	height: 100%;
+    background-color: white;
+}
+
+
+h1{
+    font-family:'Lora';
+    padding: 15px 0 15px 5px;
+    text-align: center;
+    font-size:2.33rem;
+    background-color: orange;
+}
+p{
+    font-family: 'Lora';
+    width: 95%; 
+    padding-left: 5px;
+    font-size: 1.5rem; 
+    line-height: 3rem;
+    float:left;  
+}
+
+.itemRow{
+ max-width: 90%;   
+}
+
+.wrapper {
+    min-height: 100%;
+    max-width: 400px;
+  
+    width:90%;
+    margin:0 auto;
+    background-color: #FBA16C;
+    
+    
+}
+
+.sticky {
+    background-color: orange;
+    max-width: 400px;
+    width:90%;
+    position: relative;
+	margin-top: -100px; /* negative value of footer height */
+	height: 100px;
+	clear:both;
+    
+}
+.output{
+    overflow:auto;
+    padding-bottom: 100px;
+       
+}
+.gotit{
+    text-decoration:line-through; 
+    color: #617F62;   
+}
+
+#item{
+    width:95%;
+    margin:5px 10px 20px;
+    font-size: 1.5rem;
+    text-indent:5px;
+}
+#btnAdd{
+    font-size:1rem;
+    width: 48%;
+    background-color: #FBFFFB;
+    margin: 1%;
+}
+#btnClear{
+
+font-size:1rem;
+    width: 48%;
+    background-color: #FBFFFB;
+}
